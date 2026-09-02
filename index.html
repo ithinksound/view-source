@@ -8,12 +8,52 @@
 
     <title>Hello World</title>
 
+<style>
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        margin: 40px;
+    }
+
+    div {
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 180px;
+        letter-spacing: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .offset {
+        margin-left: 180px;
+        transform: rotate(-4deg);
+    }
+
+    h1 span {
+        display: inline-block;
+        transform: rotate(12deg);
+    }
+</style>
 </head>
 
 <body>
 
-    <h1>Hello World!</h1>
+    <div>INFORMATION</div>
+    <div>INFORMATION</div>
+    <div>INFORMATION</div>
+
+    
+    <h1>
+        F<span>R</span>E<span style="transform: rotate(-12deg);">E</span>
+    </h1>
+
+    <div class="offset">SHOULD BE</div>
 
 </body>
-
 </html>
